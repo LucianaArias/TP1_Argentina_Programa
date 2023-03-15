@@ -1,0 +1,76 @@
+body{
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #999;
+    color: rgb(46, 227, 255);
+}
+.estilosnatacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(46, 227, 255);
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+.tarjeta {
+    width: 22em;
+    min-width: 19%;
+    background-color:#fff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.3em;
+    border: #999 thin solid
+}
+
+.marcoTarjeta{
+    background-color:#fff;
+    padding: 1em;
+    border-radius: 0.3em
+}
+
+.marcoTarjeta img{
+    width: 100%;
+    max-width: 100%;
+    height: 12em;
+    display: flex;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border: #999 thin solid;
+}
+
+.textoTarjeta{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 0 0 .5em 5.em;
+    margin: 0.2em 0 0 0;
+}
+.textoTarjeta h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.textoTarjeta h3{
+    text-align: center;
+    font-size: .8em;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.imgEstilos{
+    text-align: center;
+    padding: 1em;
+    border-radius: 0 0 .5em 5.em;
+}
+footer{
+    background-color: rgb(229, 180, 196);
+    position:sticky;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
